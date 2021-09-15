@@ -1,3 +1,4 @@
+
 var express = require('express')
 var path = require('path')
 var logger = require('morgan')
@@ -17,6 +18,7 @@ const jsonParser = bodyParser.json();
 var data = {};
 
 //view engine 
+//simple change
 app.set('views', path.join(__dirname, 'views'))
 app.use(logger('dev'));
 app.use(bodyParser.json());
